@@ -5,7 +5,6 @@ QE = 12684
 aux = list()
 coligacoes = list()
 l = list()
-def 
 with open("eleicao.csv", encoding="utf-8") as f:
     f.readline()
     for line in f:
@@ -21,6 +20,6 @@ for n in l:
 
 	n[3] = int(n[3])
 	#print(n)
-coligacoes = list(set(coligacoes))) # tira os nomes repetidos coligacoes reptidadas
-for co in coligacoes: # filtrar e soma votos das coligacoes
+coligacoes = list(set(coligacoes)) # tira os nomes repetidos coligacoes reptidadas
+#for co in coligacoes: # filtrar e soma votos das coligacoes
 
